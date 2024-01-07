@@ -3,12 +3,17 @@ name = "doggo"
 version = "0.1.0"
 description = ""
 authors = ["Anonymous <nekhayiv@gmail.com>"]
-readme = "README.md"
+# readme = "README.md"
 packages = [{include = "doggo", from = "src"}]
 
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.108.0"
+fastapi-utils = "^0.2.1"
+psutil = "^5.9.7"
+datadog = "^0.47.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
 
 
 [tool.poetry.group.dev.dependencies]
