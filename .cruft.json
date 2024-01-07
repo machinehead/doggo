@@ -1,0 +1,17 @@
+{
+  "template": "https://github.com/machinehead/cookiecutter-pylibrary",
+  "commit": "848c2e4cdc94f5417bffc3c704a56686d0ba7a91",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "Doggo",
+      "project_slug": "doggo",
+      "package_name": "doggo",
+      "author_name": "Anonymous",
+      "author_email": "nekhayiv@gmail.com",
+      "min_python_version": "3.10",
+      "_template": "https://github.com/machinehead/cookiecutter-pylibrary"
+    }
+  },
+  "directory": null
+}
